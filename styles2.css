@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+  
+}
+main{
+    width:100%;
+    height: 75px;
+    background-color: grey;
+    line-height: 75px;
+    padding:0px 100px;
+    position:fixed;
+    z-index: 1;
+    display: flex;
+}
+main h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+}
+main .navbar{
+    padding:0px 50px;
+    margin: 0px 80px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+
+}
+main .navbar ul{
+    float:right;
+    color:white;
+    text-transform: uppercase;
+  }
+  
+  main .navbar ul li{
+      display:inline-block;
+      list-style: none;
+  }
+  main .navbar ul li a{
+      color:white;
+      text-decoration: none;
+      font-size: 18px;
+      padding:0px 32px;
+  }
+  main .navbar ul li a:hover{
+      color:burlywood;
+   
+  }
+  main .navbar2{
+      
+      margin: 5px 100px;
+      display:inline-flexbox;
+  }
+.image img{
+    width:100%;
+
+}
