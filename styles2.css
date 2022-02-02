@@ -270,3 +270,49 @@ firstpart-content-a h3{
       width: 100%;
     }
   }
+  /* SECTION THREE STYLING */
+  #cardspart3{
+    display: flex;
+    flex:auto;
+    height: 600px;
+    justify-content: center;
+    margin:auto;
+    width:100%;
+    background-color:whitesmoke;
+    padding-top: 100px;
+}
+#cardspart3 h2{
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 10px;
+    align-items: center;
+    float:right;
+}
+    #cardspart3 h2 p{
+        float: inline-end;
+        display: flex;
+        align-content: center;
+        text-align: justify;
+}
+#card {
+    border: 1px solid gray;
+    padding: 16px;
+    margin-top: 50px;
+    width: 20%;
+    height: 80%;
+    justify-content: center;
+    color:grey;
+    background-color: white; 
+  }
+  
+  @media screen and (max-width: 800px) {
+    main {
+      display: flex;
+      padding: 10px;
+      backgroud-color: red;
+    }
+    #card {
+      text-direction: column;
+      width: 100%;
+    }
+  }
