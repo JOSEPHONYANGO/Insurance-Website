@@ -1,77 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
-*{
-    margin:0px;
-    padding:0px;
+*,
+*:before,
+*:after {
     box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
-  
+    margin: 0;
+    padding: 0;
 }
-main{
-    width:100%;
-    height:50%;
-    background-color:grey;
-    line-height: 75px;
-    padding:0px 100px;
-    position:relative;
-    z-index: 1;
+body {
+    font-style: Montserrat;
+    background-color: #252B42;
+}
+#firstpart {
+    width: 100%;
+    height: auto;
+    
+}
+@media screen and (max-width: 500px) {
+    #firstpart {
+        
+    }
+}
+#firstpart header{
+    height: 7%;
+    padding: 1% 2%;
+}
+@media screen and (max-width: 500px) {
+    #firstpart header {
+        height: 7%;
+        padding: 5% 3%;
+    }
+}
+#firstpart header nav{
+    padding-top: 1%;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
-main h1{
-    font-size: 30px;
-    font-weight: bold;
-    color:white;
-}
-main .navbar{
-    padding:0px 50px;
-    margin: 0px 80px;
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-
-}
-main .navbar ul{
-    float:right;
-    color:white;
-    text-transform: uppercase;
-  }
-  
-  main .navbar ul li{
-      display:inline-block;
-      list-style: none;
-  }
-  main .navbar ul li a{
-      color:white;
-      text-decoration: none;
-      font-size: 18px;
-      padding:0px 32px;
-  }
-  main .navbar ul li a:hover{
-      color:burlywood;
-   
-  }
-  main .navbar2{
-      
-      margin: 5px 100px;
-      display:inline-flexbox;
-  }
-.background-image {
-    background-image: url('/images/Assets-20220129T142004Z-001/Assets/#hero-cover.3.png');
-    background-size: cover;
-    width:200px;
-    height: 100vh;
-    background-repeat: no-repeat;
-
-}
-main2{
-    width:100%;
-    height:50%;
-    background-color:white;
-    position:fixed;
-    z-index: 1;
-    display: flex;
-}
-main2 h2 {
-    font-size: 30px;
-    font-weight: bold;
-    color:white;
+.logo-g {
+    width: 20%;
 }
