@@ -274,42 +274,48 @@ firstpart-content-a h3{
   #cardspart3{
     display: flex;
     flex:auto;
-    height: 600px;
+    height: 900px;
     justify-content: center;
     margin:auto;
     width:100%;
     background-color:whitesmoke;
     padding-top: 100px;
 }
-#cardspart3 h2{
-    text-align: center;
-    padding-top: 5px;
-    margin-top: 10px;
+#cardspart3 .para {
+    
     align-items: center;
-    float:right;
+    justify-content: center;
+    
 }
-    #cardspart3 h2 p{
-        float: inline-end;
-        display: flex;
+#cardspart3 .para h2{
+    
+    color:black;
+    text-align: center;
+    font-size:larger;
+    
+}
+#cardspart3 .para p{
         align-content: center;
-        text-align: justify;
+        text-align:center;
+        font-size: medium;
 }
-#card {
+#cardspart3 .card {
     border: 1px solid gray;
     padding: 16px;
-    margin-top: 50px;
+    margin-top: 90px;
     width: 20%;
     height: 80%;
     justify-content: center;
     color:grey;
     background-color: white; 
+    margin: auto;
   }
   
   @media screen and (max-width: 800px) {
     main {
       display: flex;
       padding: 10px;
-      backgroud-color: red;
+      
     }
     #card {
       text-direction: column;
