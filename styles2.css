@@ -326,15 +326,15 @@ firstpart-content-a h3{
   #partnerlogos{ 
     display: flex;
     height: 300px;
-    justify-content: center;
-    margin:auto;
+    justify-content:center;
+    margin: auto;
     width:100%;
     background-color:whitesmoke;
-    padding-top: 100px;
+    padding-top: 50px;
 }
-#partnerlogos #logos {
+#partnerlogos .logos {
     padding-inline: 30px;
-    
+ 
 }
 form div {
     display: flex;
@@ -396,3 +396,4 @@ form .form-button {
     color: white;
     text-decoration: none;
 }
+ 
