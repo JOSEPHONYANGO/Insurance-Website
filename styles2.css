@@ -39,3 +39,113 @@ body {
 .logo-g {
     width: 20%;
 }
+@media screen and (max-width: 500px) {
+    .logo-g {
+        width: 50%;
+    }
+}
+a.logo-link {
+    text-decoration: none;
+    display: inline-block;
+}
+nav img {
+    vertical-align: middle;
+    width: 5vw;
+}
+
+@media screen and (max-width: 500px) {
+    nav img {
+        vertical-align: middle;
+        width: 12vw;
+    }
+}
+p.logo-text {
+    display: inline;
+    color:white;
+    font-weight: 800;
+    font-size: 2.7vw;
+    vertical-align: middle;
+    font-family: "Sansita Swashed";
+}
+
+@media screen and (max-width: 500px) {
+    p.logo-text {
+        font-size: 6vw;
+    }
+}
+
+p.logo-text .black {
+    color: black;
+}
+
+.links {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    .links {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        background-color: #f6b400;
+        z-index: 2;
+        top: 0.05%;
+        right: -100%;
+        text-align: center;
+        transition: 0.5s ease;
+    }
+    #check:checked ~ .links {
+        right: 0.1%;
+    }
+}
+
+.links ul {
+    display: inline;
+}
+
+@media screen and (max-width: 500px) {
+    .links ul {
+        padding-left: 0;
+    }
+}
+.links li {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    margin: 0 2%;
+    text-decoration: none;
+    color:white;
+}
+@media screen and (max-width: 500px) {
+    .links li {
+        list-style-type: none;
+        display: block;
+        font-weight: 700;
+        font-size: 6vw;
+        text-transform: capitalize;
+        margin: 15% 0;
+        text-decoration: none;
+        color: white;
+    }
+}
+.links2 ul{
+    display: inline-flex;
+    padding-left: 0;
+    margin:30px 20px 50px 50px;
+}
+.links2 ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    margin: 0 2%;
+    text-decoration: none;
+    color:white;
+}
