@@ -408,14 +408,21 @@ form .form-button {
      text-align: center;
      font-size: large;
  }
- .free{
+ .pricingmodels{
+     display: flex;
+     margin: 0%;
+   
+
+ }
+ .free,
+ .premium{
     background-color: #f7fdf6;
     
     padding: 10% 5%;
 
     justify-content: center;
  }
- .free{
+ .standard{
     text-align: center;
     border: solid lightblue;
     border-radius: 1vw;
@@ -424,3 +431,27 @@ form .form-button {
     height: auto;
     width: 30%;
  }
+ .free,
+ .premium {
+    text-align: center;
+    border: solid 0.15vw lightblue;
+    border-radius: 1vw;
+    padding: 5% 3%;
+    margin: 4% 2%;
+    height: auto;
+    width: 30%;
+}
+#worldmap{
+    display:flex;
+ 
+
+}
+.form{
+    text-align: center;
+    border: solid 0.15vw lightblue;
+    border-radius: 1vw;
+    padding: 5% 3%;
+    margin: 4% 2%;
+    height: auto;
+    width: 30%;  
+}
