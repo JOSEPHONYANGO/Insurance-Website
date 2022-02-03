@@ -272,14 +272,21 @@ firstpart-content-a h3{
   }
   /* SECTION THREE STYLING */
   #cardspart3{
-    display: flex;
+    
     flex:auto;
-    height: 900px;
+    height: 100%;
     justify-content: center;
     margin:auto;
     width:100%;
     background-color:whitesmoke;
     padding-top: 100px;
+    text-align: center;
+
+}
+.cardsall{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 #cardspart3 .para {
     
@@ -325,16 +332,41 @@ firstpart-content-a h3{
   /* SECTION 4 STYLING */
   #partnerlogos{ 
     display: flex;
-    height: 300px;
+    height: 100%;
     justify-content:center;
-    margin: auto;
-    width:100%;
-    background-color:whitesmoke;
-    padding-top: 50px;
+        background-color:whitesmoke;
+    margin-top: 0%;
+    padding-top: 5%;
+    align-items: center;
 }
-#partnerlogos .logos {
-    padding-inline: 30px;
- 
+.logoz{
+    width:75%;
+    position: relative;
+    display: flex;
+}
+ .vector {
+    
+    padding:10px;
+} 
+
+.vector1 {
+    padding:10px;
+}
+
+.vector2 {
+    padding:10px;
+}
+
+.vector3 {
+    padding:10px;
+}
+
+.vector4 {
+    padding:10px;
+}
+
+.vector5 {
+    padding:10px;
 }
 form div {
     display: flex;
@@ -347,10 +379,21 @@ form h3 {
 #newsletter{
     display: flex;
     justify-content: center;
-    margin:auto;
+    /* margin:auto; */
     width:100%;
+    height: 50vh;
     background-color: whitesmoke;
+    margin-top: 250px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 
+.newsletter {
+    position: relative;
+    background: linear-gradient(to right, blue 30%, magenta 20%);
+    width: 40%;
+    height: 10vh;
+    color: white;
 }
 form .form-field {
     padding: 3% 6% 3% 3%;
@@ -430,6 +473,8 @@ form .form-button {
     margin: 0 2%;
     height: auto;
     width: 30%;
+    background-color:#252B42;
+    color:white;
  }
  .free,
  .premium {
@@ -441,11 +486,18 @@ form .form-button {
     height: auto;
     width: 30%;
 }
-#worldmap{
+.worldmap{
     display:flex;
- 
-
+    position: relative;
+    width: 100%;
+    margin-left: 35%;
+    margin:5%;
 }
+.worldmap h2 .p{
+    color:white;
+}
+
+
 .form{
     text-align: center;
     border: solid 0.15vw lightblue;
@@ -454,4 +506,8 @@ form .form-button {
     margin: 4% 2%;
     height: auto;
     width: 30%;  
+}
+.appointmentsegment{
+    display:flex;
+    position: absolute;
 }
