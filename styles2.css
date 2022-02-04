@@ -7,7 +7,7 @@
 }
 body {
     font-style: Montserrat;
-    background-color: #252B42;
+    background-color:white;
 }
 #firstpart {
     width: 100%;
@@ -135,9 +135,12 @@ p.logo-text .black {
     }
 }
 .links2 ul{
-    display: inline-flex;
+    display:flex;
     padding-left: 0;
     margin:30px 20px 50px 50px;
+    align-items: flex-end;
+    right: 250px;
+    left: 100px;
 }
 .links2 ul li{
     list-style-type: none;
@@ -438,6 +441,7 @@ form .form-button {
  ul li a{
     color: white;
     text-decoration: none;
+    font-size: xx-large;
 }
 #pricing {
     background-color: whitesmoke;
@@ -486,14 +490,23 @@ form .form-button {
     height: auto;
     width: 30%;
 }
+
+.globepic{
+    width:100vw;
+    display: flex;
+    background-color: #252B42;
+    padding: 100px;
+    
+        
+}
 .worldmap{
     display:flex;
     position: relative;
     width: 100%;
-    margin-left: 35%;
-    margin:5%;
+    
+   
 }
-.worldmap h2 .p{
+.globepic h2 {
     color:white;
 }
 
@@ -507,7 +520,19 @@ form .form-button {
     height: auto;
     width: 30%;  
 }
+#appointmentsection{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .appointmentsegment{
     display:flex;
-    position: absolute;
+    background-color: green;
+    width:50vw;
+    height: 500px;
+    margin-top: -0px;
+}
+.appointmentsegment .form {
+    
 }
